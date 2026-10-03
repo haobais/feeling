@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "project": "Feeling",
+  "repository": "https://github.com/haobais/feeling",
+  "manifestUrl": "https://raw.githubusercontent.com/haobais/feeling/main/updates/manifest.json",
+  "channel": "stable",
+  "latest": {
+    "versionName": "1.0",
+    "versionCode": 0,
+    "releaseDate": null,
+    "releaseUrl": "",
+    "downloadUrl": "",
+    "sha256": ""
+  },
+  "artifacts": [],
+  "releaseNotes": [],
+  "minSupportedUpdater": 1
+}

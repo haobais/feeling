@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": null,
+  "displayPolicy": {
+    "publicOnly": true,
+    "storeOnlyConsent": true
+  },
+  "sponsors": []
+}
