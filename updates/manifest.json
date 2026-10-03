@@ -14,5 +14,8 @@
   },
   "artifacts": [],
   "releaseNotes": [],
+  "forceUpdate": false,
+  "minSupportedVersionCode": 0,
+  "announcements": [],
   "minSupportedUpdater": 1
 }
