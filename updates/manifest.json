@@ -26,11 +26,11 @@
   ],
   "releaseNotes": [
     "首次发布远程更新，提供 Standard 和 Legacy 正式签名安装包。",
-    "本次为非强制更新，不限制旧版本设置和功能，不修改已保存的开关配置。",
+    "当前启用强制更新测试：低于 897 的版本需要更新，原有开关配置保留，升级后恢复。",
     "沿用 896 版功能代码，包含离线缓存数量适配和设置同步修复。",
     "本次验证版本检查和安装包下载，宿主功能仍需真机验收。"
   ],
-  "forceUpdate": false,
+  "forceUpdate": true,
   "minSupportedVersionCode": 0,
   "announcements": [],
   "minSupportedUpdater": 1
