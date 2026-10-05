@@ -5,15 +5,31 @@
   "manifestUrl": "https://raw.githubusercontent.com/haobais/feeling/main/updates/manifest.json",
   "channel": "stable",
   "latest": {
-    "versionName": "1.0",
-    "versionCode": 0,
-    "releaseDate": null,
-    "releaseUrl": "",
-    "downloadUrl": "",
-    "sha256": ""
+    "versionName": "1.0.1",
+    "versionCode": 897,
+    "releaseDate": "2026-10-05T09:32:39+08:00",
+    "releaseUrl": "https://github.com/haobais/feeling/releases/tag/v897",
+    "downloadUrl": "https://github.com/haobais/feeling/releases/download/v897/app-standard-release.apk",
+    "sha256": "835e7a93c41a33d2afe2c833d5d14ed00c23fc0eae75f2de501fb5bdeebc30ff"
   },
-  "artifacts": [],
-  "releaseNotes": [],
+  "artifacts": [
+    {
+      "flavor": "standard",
+      "downloadUrl": "https://github.com/haobais/feeling/releases/download/v897/app-standard-release.apk",
+      "sha256": "835e7a93c41a33d2afe2c833d5d14ed00c23fc0eae75f2de501fb5bdeebc30ff"
+    },
+    {
+      "flavor": "legacy",
+      "downloadUrl": "https://github.com/haobais/feeling/releases/download/v897/app-legacy-release.apk",
+      "sha256": "a1d2ba74ca9fb0c6d5e36a01c63acadce6611accc6baba082464edffbfe852e3"
+    }
+  ],
+  "releaseNotes": [
+    "首次发布远程更新，提供 Standard 和 Legacy 正式签名安装包。",
+    "本次为非强制更新，不限制旧版本设置和功能，不修改已保存的开关配置。",
+    "沿用 896 版功能代码，包含离线缓存数量适配和设置同步修复。",
+    "本次验证版本检查和安装包下载，宿主功能仍需真机验收。"
+  ],
   "forceUpdate": false,
   "minSupportedVersionCode": 0,
   "announcements": [],
