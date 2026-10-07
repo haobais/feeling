@@ -5,17 +5,37 @@
   "manifestUrl": "https://raw.githubusercontent.com/haobais/feeling/main/updates/manifest.json",
   "channel": "stable",
   "latest": {
-    "versionName": "1.0",
-    "versionCode": 0,
-    "releaseDate": null,
-    "releaseUrl": "",
-    "downloadUrl": "",
-    "sha256": ""
+    "versionName": "1.02",
+    "versionCode": 1002,
+    "releaseDate": "2026-10-07T04:35:00Z",
+    "releaseUrl": "https://github.com/haobais/feeling/releases/tag/v1002",
+    "downloadUrl": "https://github.com/haobais/feeling/releases/download/v1002/app-standard-release.apk",
+    "sha256": "0254b4ba25f98daa504e878ab2a3ddf7ed7aed4283bd0c7573bc3f06da283673"
   },
-  "artifacts": [],
-  "releaseNotes": [],
+  "artifacts": [
+    {
+      "flavor": "standard",
+      "downloadUrl": "https://github.com/haobais/feeling/releases/download/v1002/app-standard-release.apk",
+      "sha256": "0254b4ba25f98daa504e878ab2a3ddf7ed7aed4283bd0c7573bc3f06da283673"
+    },
+    {
+      "flavor": "legacy",
+      "downloadUrl": "https://github.com/haobais/feeling/releases/download/v1002/app-legacy-release.apk",
+      "sha256": "a95b128f7f14576d5cfeeab6dec521b67c2607ff1bacdc6ee3bfaeab5576be22"
+    }
+  ],
+  "releaseNotes": ["修复已知问题"],
   "forceUpdate": false,
   "minSupportedVersionCode": 0,
-  "announcements": [],
+  "announcements": [
+    {
+      "id": "feeling-1.02-bug-feedback-20261007",
+      "title": "问题反馈说明",
+      "content": "去tg群组翻看问题\nbug反馈\n格式:\n软件名称:\n软件版本:\n异常描述:\n能否复现:\n复现视频:\nlsp日志+模块日志：",
+      "publishedAt": "2026-10-07T04:35:00Z",
+      "enabled": true,
+      "popup": true
+    }
+  ],
   "minSupportedUpdater": 1
 }
