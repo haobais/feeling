@@ -31,7 +31,7 @@
     {
       "id": "feeling-1.02-bug-feedback-20261007",
       "title": "问题反馈说明",
-      "content": "去tg群组翻看问题\nbug反馈\n格式:\n软件名称:\n软件版本:\n异常描述:\n能否复现:\n复现视频:\nlsp日志+模块日志：",
+      "content": "去tg群组反馈问题\nbug反馈\n格式:\n软件名称:\n软件版本:\n异常描述:\n能否复现:\n复现视频:\nlsp日志+模块日志：",
       "publishedAt": "2026-10-07T04:35:00Z",
       "enabled": true,
       "popup": true
