@@ -5,26 +5,62 @@
   "manifestUrl": "https://raw.githubusercontent.com/haobais/feeling/main/updates/manifest.json",
   "channel": "stable",
   "latest": {
-    "versionName": "1.02",
-    "versionCode": 1002,
-    "releaseDate": "2026-10-07T04:35:00Z",
-    "releaseUrl": "https://github.com/haobais/feeling/releases/tag/v1002",
-    "downloadUrl": "https://github.com/haobais/feeling/releases/download/v1002/app-standard-release.apk",
-    "sha256": "0254b4ba25f98daa504e878ab2a3ddf7ed7aed4283bd0c7573bc3f06da283673"
+    "versionName": "1.09",
+    "versionCode": 1009,
+    "releaseDate": "2026-10-15T11:14:29+00:00",
+    "releaseUrl": "https://github.com/haobais/feeling/releases/tag/v1009",
+    "downloadUrl": "https://github.com/haobais/feeling/releases/download/v1009/app-standard-release.apk",
+    "sha256": "34bb3f27b909f5f99cf1d40f429952dcad24c10ae160fd1fdb48fa3465ada03a"
   },
   "artifacts": [
     {
       "flavor": "standard",
-      "downloadUrl": "https://github.com/haobais/feeling/releases/download/v1002/app-standard-release.apk",
-      "sha256": "0254b4ba25f98daa504e878ab2a3ddf7ed7aed4283bd0c7573bc3f06da283673"
+      "downloadUrl": "https://github.com/haobais/feeling/releases/download/v1009/app-standard-release.apk",
+      "sha256": "34bb3f27b909f5f99cf1d40f429952dcad24c10ae160fd1fdb48fa3465ada03a"
     },
     {
       "flavor": "legacy",
-      "downloadUrl": "https://github.com/haobais/feeling/releases/download/v1002/app-legacy-release.apk",
-      "sha256": "a95b128f7f14576d5cfeeab6dec521b67c2607ff1bacdc6ee3bfaeab5576be22"
+      "downloadUrl": "https://github.com/haobais/feeling/releases/download/v1009/app-legacy-release.apk",
+      "sha256": "122a1affc49753838919f9fa584a1d53e08e3931c1eb4450517d91b833d63f1b"
     }
   ],
-  "releaseNotes": ["修复已知问题"],
+  "releaseNotes": [
+    "Feeling 1.09",
+    "本次合并了 1.02 之后的新增功能和多轮修复。",
+    "显示与播放",
+    "- 改善作品详细信息不显示、显示后消失、重复出现和位置偏移的问题。",
+    "- 改善添加作品信息时作者昵称、文案闪动的问题。",
+    "- 改善部分一级评论、楼中楼回复只显示地区、不显示时间的问题。",
+    "- 改善聊天详细时间重复出现、遮住消息及进入聊天时闪动的问题。",
+    "- 新增视频进度条持续显示，支持调整上下位置，并改善清爽模式隐藏进度条失效的问题。",
+    "- 改善侧边按钮闪动、个别按钮意外变大、页面间距变化的问题。",
+    "- 调整液态底栏位置时，作者和文案不再跟着移动。",
+    "- 改善部分情况下视频画面被移出屏幕、短暂黑屏的问题。",
+    "底栏与界面",
+    "- 液态底栏扩展为液态控件，可分别选择底部导航、顶部导航、弹幕按钮和全屏按钮。",
+    "- 改善液态底栏切页后消失、被未展开的面板误隐藏的问题。",
+    "- 自定义底栏图标仅显示图标，调整大小和居中，改善被头像或快捷入口替换后空白的问题。",
+    "- 新增隐藏系统底部导航条选项，实际效果以设备支持情况为准。",
+    "- 新增界面配色和风格选择，设置页也会随选择一起变化。",
+    "- 二级设置默认使用普通弹窗，可手动开启实时预览；预览窗口支持移动、缩放和收起。",
+    "- 改善切换页面后设置窗口异常、再次无法打开设置的问题。",
+    "- 调整多个控件时，只要支持同一项设置，就可以一起调整。",
+    "分享与保存",
+    "- 分享面板继续使用“保存作品”名称，改善工具栏偶尔不出现或中途消失的问题。",
+    "- 补充评论长按菜单中的复制、分享以及图片、表情包和语音保存入口。",
+    "- 评论分享恢复为精简口令，保留打开并定位评论所需的信息，兼容之前的口令。",
+    "- 评论图片优先保存原图，调整表情包保存地址的选择，减少取到带水印版本的情况。",
+    "- 调整离线缓存与视频过滤之间的处理，减少缓存数量异常变化的问题。",
+    "自动操作与其他",
+    "- 改善自动连播和视频过滤在加载慢、临时滑动失败时停止工作的问题。",
+    "- 调整自动红包、续火花和在线状态屏蔽相关处理。",
+    "- 改善小窗、分屏时左划回复划不动的问题，扩大可操作范围并增加环形提示。",
+    "- 调整启动检查和日常运行，减少重复刷新和不必要的资源占用。",
+    "- 完善账号状态、公告和更新提醒；更新可直接下载，查看进度和更新内容，收起窗口后继续下载。",
+    "- 增加按功能查看运行情况的窗口，方便反馈偶发问题。",
+    "- 同步保留旧版本的更新入口，方便从早期版本升级。",
+    "部分偶发问题仍需更多设备和页面反馈。遇到异常，请附上软件版本、复现步骤和相关日志。"
+  ],
   "forceUpdate": false,
   "minSupportedVersionCode": 0,
   "announcements": [
