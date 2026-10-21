@@ -6,37 +6,35 @@
   "channel": "stable",
   "latest": {
     "versionName": "1.10",
-    "versionCode": 1031,
-    "releaseDate": "2026-10-21T08:19:38Z",
-    "releaseUrl": "https://github.com/haobais/feeling/releases/tag/v1031",
-    "downloadUrl": "https://github.com/haobais/feeling/releases/download/v1031/app-standard-release.apk",
-    "sha256": "fbbe45828ebc79289efe4ce6f3b96a27447aa08f18cf71d0f700ae20c12bf21e"
+    "versionCode": 1032,
+    "releaseDate": "2026-10-21T10:18:09Z",
+    "releaseUrl": "https://github.com/haobais/feeling/releases/tag/v1032",
+    "downloadUrl": "https://github.com/haobais/feeling/releases/download/v1032/app-standard-release.apk",
+    "sha256": "bc3aff160efd806413a7b7cf1fdf26c76cf24b4780d7775b64b930be2cf5d192"
   },
   "artifacts": [
     {
       "flavor": "standard",
-      "downloadUrl": "https://github.com/haobais/feeling/releases/download/v1031/app-standard-release.apk",
-      "sha256": "fbbe45828ebc79289efe4ce6f3b96a27447aa08f18cf71d0f700ae20c12bf21e"
+      "downloadUrl": "https://github.com/haobais/feeling/releases/download/v1032/app-standard-release.apk",
+      "sha256": "bc3aff160efd806413a7b7cf1fdf26c76cf24b4780d7775b64b930be2cf5d192"
     },
     {
       "flavor": "legacy",
-      "downloadUrl": "https://github.com/haobais/feeling/releases/download/v1031/app-legacy-release.apk",
-      "sha256": "878fc7450cd50c330656a4c51b2d68bdd97039b6e5dfc6fe2fac9a355044e64e"
+      "downloadUrl": "https://github.com/haobais/feeling/releases/download/v1032/app-legacy-release.apk",
+      "sha256": "c8650db6c6dc4ee9c9cf57e1e972773d25227022a6871ca6f44a96dfe6974c13"
     }
   ],
   "releaseNotes": [
     "修复",
-    "- 改善网络短暂中断后的校验恢复和功能权限刷新。",
-    "- 修复顶栏隐藏后仍能点到、居中后重叠的问题。",
-    "- 自动连播改为保持官方连播开关，播放完成暂停优先。",
-    "- 修复主页 UID 复制图标不显示的问题。",
-    "- 完善主页和作品的精确数量显示。",
-    "- 调整作者、文案时让相关控件一起移动，减少切换作品时的位置跳动。",
-    "- 实时预览图标与标题、保存操作放在同一行。",
-    "- 改善续火花列表边界和部分控件的显示。",
+    "- 修复连接失败后反复重试，可能导致功能突然失效的问题。",
+    "- 改善网络不稳定时的使用和恢复。",
+    "- 修复最小化下载后找不到进度入口的问题。",
+    "- 切换页面和返回应用时保留下载进度及悬浮窗位置。",
     "新增",
-    "- 增加抖音 40.9 版本支持。",
-    "本次为可选更新。部分功能仍需真机反馈，直播红包在缺少相关功能的版本中暂未支持。"
+    "- 图片、视频保存和安装包下载统一使用半透明悬浮窗，可拖动调整位置。",
+    "- 可缩成进度圆环，点按恢复，多项任务结束后自动关闭。",
+    "- 下载进度增加轻量粒子动效。",
+    "本次为可选更新。"
   ],
   "forceUpdate": false,
   "minSupportedVersionCode": 0,
