@@ -5,36 +5,29 @@
   "manifestUrl": "https://raw.githubusercontent.com/haobais/feeling/main/updates/manifest.json",
   "channel": "stable",
   "latest": {
-    "versionName": "1.10",
-    "versionCode": 1032,
-    "releaseDate": "2026-10-21T10:18:09Z",
-    "releaseUrl": "https://github.com/haobais/feeling/releases/tag/v1032",
-    "downloadUrl": "https://github.com/haobais/feeling/releases/download/v1032/app-standard-release.apk",
-    "sha256": "bc3aff160efd806413a7b7cf1fdf26c76cf24b4780d7775b64b930be2cf5d192"
+    "versionName": "1.11",
+    "versionCode": 1033,
+    "releaseDate": "2026-10-22T11:46:28Z",
+    "releaseUrl": "https://github.com/haobais/feeling/releases/tag/v1033",
+    "downloadUrl": "https://github.com/haobais/feeling/releases/download/v1033/app-standard-release.apk",
+    "sha256": "52eace724aceeff2d3f15d19ec1fff724898b92cd692d458e10498e41b3f2345"
   },
   "artifacts": [
     {
       "flavor": "standard",
-      "downloadUrl": "https://github.com/haobais/feeling/releases/download/v1032/app-standard-release.apk",
-      "sha256": "bc3aff160efd806413a7b7cf1fdf26c76cf24b4780d7775b64b930be2cf5d192"
+      "downloadUrl": "https://github.com/haobais/feeling/releases/download/v1033/app-standard-release.apk",
+      "sha256": "52eace724aceeff2d3f15d19ec1fff724898b92cd692d458e10498e41b3f2345"
     },
     {
       "flavor": "legacy",
-      "downloadUrl": "https://github.com/haobais/feeling/releases/download/v1032/app-legacy-release.apk",
-      "sha256": "c8650db6c6dc4ee9c9cf57e1e972773d25227022a6871ca6f44a96dfe6974c13"
+      "downloadUrl": "https://github.com/haobais/feeling/releases/download/v1033/app-legacy-release.apk",
+      "sha256": "13050ca6840bac11bd3812b60a11640d6991d68cbae6f4d0acd0fe28702b9a64"
     }
   ],
   "releaseNotes": [
-    "修复",
-    "- 修复连接失败后反复重试，可能导致功能突然失效的问题。",
-    "- 改善网络不稳定时的使用和恢复。",
-    "- 修复最小化下载后找不到进度入口的问题。",
-    "- 切换页面和返回应用时保留下载进度及悬浮窗位置。",
-    "新增",
-    "- 图片、视频保存和安装包下载统一使用半透明悬浮窗，可拖动调整位置。",
-    "- 可缩成进度圆环，点按恢复，多项任务结束后自动关闭。",
-    "- 下载进度增加轻量粒子动效。",
-    "本次为可选更新。"
+    "优化切换作品时的控件挂载，提前应用侧栏隐藏和位置设置，减少先出现再调整的跳动。",
+    "优化作品详情的占位和页面复用，减少作者、文案及详情在挂载时反复移动。",
+    "保留当前功能与配置；三宿主的实际显示效果仍需设备复验。"
   ],
   "forceUpdate": false,
   "minSupportedVersionCode": 0,
