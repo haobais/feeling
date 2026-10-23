@@ -5,29 +5,34 @@
   "manifestUrl": "https://raw.githubusercontent.com/haobais/feeling/main/updates/manifest.json",
   "channel": "stable",
   "latest": {
-    "versionName": "1.11",
-    "versionCode": 1033,
-    "releaseDate": "2026-10-22T11:46:28Z",
-    "releaseUrl": "https://github.com/haobais/feeling/releases/tag/v1033",
-    "downloadUrl": "https://github.com/haobais/feeling/releases/download/v1033/app-standard-release.apk",
-    "sha256": "52eace724aceeff2d3f15d19ec1fff724898b92cd692d458e10498e41b3f2345"
+    "versionName": "1.12",
+    "versionCode": 1034,
+    "releaseDate": "2026-10-23T17:34:12Z",
+    "releaseUrl": "https://github.com/haobais/feeling/releases/tag/v1034",
+    "downloadUrl": "https://github.com/haobais/feeling/releases/download/v1034/app-standard-release.apk",
+    "sha256": "595e8609bf19568cce19c5ae0f421e8764bab9fc30d6f7e9e7f27d8e6428268b"
   },
   "artifacts": [
     {
       "flavor": "standard",
-      "downloadUrl": "https://github.com/haobais/feeling/releases/download/v1033/app-standard-release.apk",
-      "sha256": "52eace724aceeff2d3f15d19ec1fff724898b92cd692d458e10498e41b3f2345"
+      "downloadUrl": "https://github.com/haobais/feeling/releases/download/v1034/app-standard-release.apk",
+      "sha256": "595e8609bf19568cce19c5ae0f421e8764bab9fc30d6f7e9e7f27d8e6428268b"
     },
     {
       "flavor": "legacy",
-      "downloadUrl": "https://github.com/haobais/feeling/releases/download/v1033/app-legacy-release.apk",
-      "sha256": "13050ca6840bac11bd3812b60a11640d6991d68cbae6f4d0acd0fe28702b9a64"
+      "downloadUrl": "https://github.com/haobais/feeling/releases/download/v1034/app-legacy-release.apk",
+      "sha256": "9df7d77c726cf73e8dcd96be46fc8a74cc04bb241adb3a6a828343e0b63ad74c"
     }
   ],
   "releaseNotes": [
-    "优化切换作品时的控件挂载，提前应用侧栏隐藏和位置设置，减少先出现再调整的跳动。",
-    "优化作品详情的占位和页面复用，减少作者、文案及详情在挂载时反复移动。",
-    "保留当前功能与配置；三宿主的实际显示效果仍需设备复验。"
+    "调整授权启动流程：优先读取抖音 UID，只有 UID 不可用时才启用设备身份兜底。",
+    "调整模块身份服务与日志转发的跨进程连接，处理模块不在前台或进程被冻结时的请求失败。",
+    "调整授权缓存初始化、会话切换和失败恢复，避免普通连接故障误清有效授权及反复打开失败提示。",
+    "设备安装密钥丢失后生成新的兜底身份；保留仍然有效的旧凭据。",
+    "更新功能分类、独立控件开关、后台任务队列、下载保存和界面设置。",
+    "普通福袋补充后台参与、指定评论与官方参与状态回读；不同协议、未识别条件和未知结果不会冒充参与成功。",
+    "生活服务福袋、灰牌单次点亮及部分专门图片视频任务仍有适配缺口。",
+    "本版完成离线及基础检查后发布，未进行实际业务操作验收；授权连续使用、消息奖励、付费条件和相册识别未实测。"
   ],
   "forceUpdate": false,
   "minSupportedVersionCode": 0,
